@@ -213,7 +213,7 @@ CREATE DATABASE budget
 	
 CREATE TABLE accounts(
 	id int PRIMARY KEY,
-	name varchar(255) UNIQUE
+	name varchar(255) UNIQUE,
 	budget decimal NOT NULL)
 ```
 
